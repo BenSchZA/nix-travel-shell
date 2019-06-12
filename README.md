@@ -1,0 +1,1 @@
+See https://nix-on-droid.unboiled.info/ and https://github.com/t184256/nix-in-termux
