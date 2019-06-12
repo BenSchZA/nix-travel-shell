@@ -2,6 +2,7 @@ with import <nixpkgs> { };
 stdenv.mkDerivation {
   name = "travel";
   buildInputs = [
+    cachix
     kubectl
     kubectx
     awscli
@@ -14,6 +15,7 @@ stdenv.mkDerivation {
     vim
     nano
     zsh
+    pass
   ];
   shellHook = "";
 }
